@@ -5,7 +5,6 @@
 <p><a href="https://raw.githack.com/Pyroster/LeyCalc/main/LeyCalc.html" title="Title">
 Versión 1.0</a></p>
 
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
