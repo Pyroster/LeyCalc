@@ -12,7 +12,7 @@ Versión 1.0</a></p>
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Leyendas</title>
-	    <link href="LeyCalc.css" rel="stylesheet" type="text/css">
+	    <link href="https://github.com/Pyroster/LeyCalc/blob/6e40285391030ba25c227a29923137185631de57/LeyCalc.css" rel="stylesheet" type="text/css">
   </head>
   <body>
 
