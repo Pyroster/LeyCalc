@@ -5,6 +5,17 @@
 <p><a href="https://raw.githack.com/Pyroster/LeyCalc/main/LeyCalc.html" title="Title">
 Versión 1.0</a></p>
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Leyendas</title>
+	    <link href="LeyCalc.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
 <!--- calculadora leyendas --->
 <div class="calculator">
 
