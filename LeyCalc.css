@@ -9,6 +9,7 @@ html {
 }
 
 html {
+    width: 100%;
   font-size: 100%;
   font-weight: 300;
   line-height: 1;
@@ -32,18 +33,20 @@ html {
 .topscreen {
   border-radius: 10px;
   font-family: Trebuchet MS;
-  width: 93%;
+  width: 100%;
   font-size: 5rem;
   height: 80px;
   border: none;
   background-color: #252525;
   color: #fff;
   text-align: right;
+padding-right: 10px;
 }
 .topscreen {
   color: cyan;
 }
 .screen {
+   width: 100%;
   border-radius: 10px;
   border: none;
   background-color: #252525;
@@ -82,6 +85,7 @@ button:hover {
   background-color: #f0595f;
   border-color: #b0353a;
   color: #fff;
+  width: 100%;
 }
 
 .all-clear:hover {
@@ -89,6 +93,7 @@ button:hover {
 }
 
 .convert {
+  width: 100%;
   cursor: pointer;
   border-radius: 20%;
   font-family: papyrus;
@@ -102,11 +107,14 @@ button:hover {
   color: black;
 }
 .calculator-keys {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-columns: repeat(3, auto);
   grid-template-rows: auto;
   grid-gap: 5px;
   padding: 5px;
+  place-content: center;
+  place-items: center;
 }
 
 
