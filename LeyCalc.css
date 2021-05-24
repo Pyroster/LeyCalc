@@ -104,7 +104,7 @@ button:hover {
   color: black;
 }
 .calculator-keys {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: repeat(3, 0.5fr);
   grid-template-rows: auto;
   grid-gap: 5px;
