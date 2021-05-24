@@ -109,7 +109,7 @@ button:hover {
 .calculator-keys {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 60px);
   grid-template-rows: auto;
   grid-gap: 5px;
   padding: 5px;
