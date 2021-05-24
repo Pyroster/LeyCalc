@@ -5,3 +5,39 @@
 <p><a href="https://raw.githack.com/Pyroster/LeyCalc/main/LeyCalc.html" title="Title">
 Versión 1.0</a></p>
 
+<!--- calculadora leyendas --->
+<div class="calculator">
+
+  <div class="screen">
+
+    <div class="onscreen">Porcentaje</div>
+    <div id="perc-display" name="perc-display" type="text" maxlength="5" class="topscreen" disabled value="0">0</div>
+
+    <input id="calc-screen" type="text" class="calculator-screen" disabled value="0" />
+    <div class="onscreen">PDesarrollo</div>
+
+  </div>
+
+  <div class="calculator-keys">
+
+    <button class="clcbtn" type="button" value="7">7</button>
+    <button class="clcbtn" type="button" value="8">8</button>
+    <button class="clcbtn" type="button" value="9">9</button>
+    <button class="clcbtn" type="button" value="4">4</button>
+    <button class="clcbtn" type="button" value="5">5</button>
+    <button class="clcbtn" type="button" value="6">6</button>
+    <button class="clcbtn" type="button" value="1">1</button>
+    <button class="clcbtn" type="button" value="2">2</button>
+    <button class="clcbtn" type="button" value="3">3</button>
+    <button class="clcbtn" type="button" value="0">0</button>
+
+    <button type="button" class="convert" value="convert">C</button>
+
+    <button type="button" class="all-clear" value="all-clear" id="all-clear">R</button>
+
+  </div>
+
+</div>
+   <script src="LeyCalc.js"></script>	
+ </body>
+</html>
