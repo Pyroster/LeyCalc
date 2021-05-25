@@ -1,6 +1,6 @@
 /*calculadora leyendas*/
 const calculator = {
-  displayValue: "0",
+  displayValue: "0"
 };
 
 function updateDisplay() {
@@ -25,13 +25,13 @@ keys.addEventListener("click", (event) => {
 
   if (target.classList.contains("convert")) {
     leyCalc();
-      return;
+    return;
   }
 
   if (target.classList.contains("all-clear")) {
     resetCalculator();
     updateDisplay();
-   
+
     return;
   }
 
@@ -47,38 +47,39 @@ function inputDigit(digit) {
 
 function resetCalculator() {
   calculator.displayValue = "0";
-   console.log(calculator);
-  }
+  console.log(calculator);
+  allclear();
+}
 
 function leyCalc() {
   var num1 = document.getElementById("calc-screen").value;
   if (num1 == 0) {
     num1 = document.getElementById("perc-display").innerHTML = -25;
   } else if (51 <= num1 && num1 <= 90) {
-    num1 = document.getElementById("perc-display").innerHTML =
-      50 + (num1 - 50) / 2;
+    num1 = document.getElementById("perc-display").innerHTML = (
+      50 +
+      (num1 - 50) / 2
+    ).toFixed(2);
   } else if (91 <= num1 && num1 <= 150) {
-    num1 = document.getElementById("perc-display").innerHTML =
-      70 + (num1 - 90) / 3;
+    num1 = document.getElementById("perc-display").innerHTML = (
+      70 +
+      (num1 - 90) / 3
+    ).toFixed(2);
   } else if (151 <= num1 && num1 <= 190) {
-    num1 = document.getElementById("perc-display").innerHTML =
-      90 + (num1 - 150) / 4;
+    num1 = document.getElementById("perc-display").innerHTML = (
+      90 +
+      (num1 - 150) / 4
+    ).toFixed(2);
   } else if (191 <= num1) {
-    num1 = document.getElementById("perc-display").innerHTML =
-      190 + (num1 - 190) / 5;
+    num1 = document.getElementById("perc-display").innerHTML = (
+      190 +
+      (num1 - 190) / 5
+    ).toFixed(2);
   } else {
     num1 = document.getElementById("perc-display").innerHTML = num1;
   }
-return;
-}
-function revert () {
-  var top = document.getElementById("perc-display");
-  top.value = '0';
-  top = document.getElementById("perc-display").innerHTML;
   return;
 }
-document.getElementById("all-clear").onclick = function() {myFunction()};
-
-function myFunction() {
-  document.getElementById("perc-display").innerHTML = '0';
+function allclear() {
+  document.getElementById("perc-display").innerHTML = "0";
 }
