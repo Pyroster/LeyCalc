@@ -1,5 +1,15 @@
 html {
   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
   width: 100%;
   font-size: 100%;
   font-weight: 300;
@@ -9,12 +19,6 @@ html {
   display: flex;
   height: 100vh;
   justify-content: center;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
 }
 
 /*calculadora leyendas*/
