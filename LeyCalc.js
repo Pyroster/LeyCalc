@@ -59,22 +59,22 @@ function leyCalc() {
     num1 = document.getElementById("perc-display").innerHTML = (
       50 +
       (num1 - 50) / 2
-    ).toFixed(2);
+    );
   } else if (91 <= num1 && num1 <= 150) {
     num1 = document.getElementById("perc-display").innerHTML = (
       70 +
       (num1 - 90) / 3
-    ).toFixed(2);
+    ).toFixed(1);
   } else if (151 <= num1 && num1 <= 190) {
     num1 = document.getElementById("perc-display").innerHTML = (
       90 +
       (num1 - 150) / 4
-    ).toFixed(2);
+    ).toFixed(1);
   } else if (191 <= num1) {
     num1 = document.getElementById("perc-display").innerHTML = (
       190 +
       (num1 - 190) / 5
-    ).toFixed(2);
+    ).toFixed(1);
   } else {
     num1 = document.getElementById("perc-display").innerHTML = num1;
   }
