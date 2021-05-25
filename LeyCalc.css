@@ -1,9 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 html {
   box-sizing: border-box;
   width: 100%;
@@ -16,6 +10,13 @@ html {
   height: 100vh;
   justify-content: center;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 /*calculadora leyendas*/
 .calculator {
   background: rgb(207, 245, 13, 0.4);
