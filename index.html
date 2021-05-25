@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Calculadora Leyendas</title>
-	    <link href="LeyCalc.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-
 <!--- calculadora leyendas --->
 <div class="calculator">
 
   <div class="screen">
 
     <div class="onscreen">Porcentaje</div>
-    <div id="perc-display" name="perc-display" type="text" maxlength="5" class="topscreen" disabled value="0">0</div>
+    <div id="perc-display" name="perc-display" type="text" class="topscreen" disabled value="0">0</div>
 
     <input id="calc-screen" type="text" class="calculator-screen" disabled value="0" />
     <div class="onscreen">PDesarrollo</div>
@@ -34,13 +24,10 @@
     <button class="clcbtn" type="button" value="3">3</button>
     <button class="clcbtn" type="button" value="0">0</button>
 
-    <button type="button" class="convert" value="convert">C</button>
+    <button type="button" class="convert" id="convert" value="convert">C</button>
 
     <button type="button" class="all-clear" value="all-clear" id="all-clear">R</button>
 
   </div>
 
 </div>
-   <script src="LeyCalc.js"></script>	
- </body>
-</html>
