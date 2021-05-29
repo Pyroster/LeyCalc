@@ -10,20 +10,24 @@
   <body>
 
 <!--- calculadora leyendas --->
-<div class="calculator">
+<div class="leycalc">
 
-  <div class="screen">
+  
+  <div class="scrnframe">
 
-    <div class="onscreen">Porcentaje</div>
-    <div id="perc-display" name="perc-display" type="text" maxlength="5" class="topscreen" disabled value="0">0</div>
+    <div id="lychdr">Conversor/Porcentaje</div>
+    <label class="scrhdr"><input type="text" class="scrn" id="porscrn" value="0" size="5">
+    </label>
 
-    <input id="calc-screen" type="text" class="calculator-screen" disabled value="0" />
-    <div class="onscreen">PDesarrollo</div>
+    <label class="scrhdr"><input type="text" class="scrn2" id="pdesscrn" value="0" size="5">
+    </label>
+    <div id="lychdr2">Calculadora/PDesarrollo</div>
 
   </div>
+  
+  <div class="keypad">
 
-  <div class="calculator-keys">
-
+  <div class="keys">
     <button class="clcbtn" type="button" value="7">7</button>
     <button class="clcbtn" type="button" value="8">8</button>
     <button class="clcbtn" type="button" value="9">9</button>
@@ -33,12 +37,23 @@
     <button class="clcbtn" type="button" value="1">1</button>
     <button class="clcbtn" type="button" value="2">2</button>
     <button class="clcbtn" type="button" value="3">3</button>
+    <button class="clcbtn" type="button" id="decimal" value=".">.</button>
     <button class="clcbtn" type="button" value="0">0</button>
+    <button class="equal" type="button" value="=" id="equal">=</button>
+  </div>
 
-    <button type="button" class="convert" id="convert" value="convert">C</button>
+  <div class="opkeys">
+    <button class="opbtn" type="button" value="+">+</button>
+    <button class="opbtn" type="button" value="-">-</button>
+    <button class="opbtn" type="button" value="*">X</button>
+    <button class="opbtn" type="button" value="/">/</button>
+  </div>
 
-    <button type="button" class="all-clear" value="all-clear" id="all-clear">R</button>
-
+      <div class="convres">
+    <button type="button" class="convert" id="convert" value="convert">Conv</button>
+    <button type="button" class="all-clear" value="all-clear" id="all-clear">Reset</button>
+  </div>
+    
   </div>
 
 </div>
